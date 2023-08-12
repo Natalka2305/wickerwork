@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+} 
+body {
+    font-family:'Roboto', sans-serif;
+   margin: 40px 40px;
+   color: #af4425;
+}
+.container {
+    background-color: #ebdcb2;
+    max-width: 1200px;
+    margin: auto;
+}
+.head {
+    max-width: 1090px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.logo {
+    display: flex;
+}
+.imge-logo{
+    margin-right: 4px;
+}  
+.text-logo {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}    
+.social-link {
+    margin-left: 20px;
+}
+.youtube-image {
+    height: 17px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1090px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.left-column{
+     padding-left: 40px;
+     max-width: 720px;
+     padding-right: 40px;
+}
+.user-profession{
+    margin: 0;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(155, 37, 37, 0.404);
+    margin-bottom: 16px;
+}
+.user-name{
+    margin: 0;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.user-description{
+    margin: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 55px;
+    color: #662e1c;
+}
+.feautures-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #af4425;
+    margin-bottom: 30px;
+}
+.feautures-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feautures-item{
+    flex-basis: 50%;
+    max-width: 288px;
+    margin-bottom: 30px;
+}
+.feautures-image{
+    display: block;
+    margin-bottom: 22px;
+    color: #c9a66b;
+}
+.feauters-item-title{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 16px;
+    color: #c9a66b;
+}
+.feautures-text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.project-slider {
+    display: flex;
+    align-items:flex-start
+    justify-content: space-between;
+}
+.project-image{
+    height: 300px;
+    margin-right: 8%;
+}
+.project-text {
+    display: flex;
+    flex-basis: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project-title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #af4425;
+    flex-basis: 100%;
+    margin-bottom: 35px;
+}
+.project-text-title {
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #c9a66b;
+    margin: 0;
+}
+.project-icon {
+    height: 30px;
+    margin-right: 11px;
+}
+.project-time, .project-cost{
+flex-basis: 50%;
+display: flex;
+align-items: flex-start;
+}
+.project-subtitle, .project-paragraph {
+    margin: 0;
+}
+.project-subtitle{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;  
+    margin-bottom: 12%;  
+}
+.project-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 12%; 
+}
+.right-column{
+    background-color: hsl(38, 47%, 60%);
+    width: 370px;
+ }
+ .avatar {
+    width: 318px;
+    height: 318px;
+    background-color: #ebdcb2;
+    border-radius: 55%;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url('../img/foto.jpg');
+    background-repeat: no-repeat;
+    background-position: center 35%;
+    border: 9px solid whitesmoke;
+    margin-bottom: 58px;
+ }
+ .contacts, .wickerwork, .weaving-techniques{
+    margin-left: 40px;  
+    margin-bottom: 40px;
+ }
+ .right-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+ }
+ .contact-type {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 20px;
+ }
+ .contact-link {
+    color:  #ffffffb7;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+ }
+ .wickerwork, .weaving-techniques {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+ }
